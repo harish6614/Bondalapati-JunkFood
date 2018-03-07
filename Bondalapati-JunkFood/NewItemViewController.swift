@@ -29,7 +29,7 @@ class NewItemViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        print("Entered prepare for New Item \(segue.identifier!)")
+        print("Entered prepare for New Item \(segue.identifier)")
     }
    
 

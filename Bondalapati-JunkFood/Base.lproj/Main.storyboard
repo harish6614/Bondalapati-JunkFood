@@ -68,7 +68,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nek-TX-k9t" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="FCg-A9-GDm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="622" y="-252"/>
+            <point key="canvasLocation" x="735" y="-251"/>
         </scene>
         <!--New Item View Controller-->
         <scene sceneID="nRX-VZ-N5X">
@@ -113,7 +113,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="RBG-Bt-gs9" kind="unwind" unwindAction="unwindFromAddNewItemWithSegue:" id="N4S-qS-lp6"/>
+                                    <segue destination="RBG-Bt-gs9" kind="unwind" identifier="item_back" unwindAction="unwindFromAddNewItemWithSegue:" id="N4S-qS-lp6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6g-ng-eGj">
@@ -131,7 +131,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUj-te-pFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="RBG-Bt-gs9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="622" y="554"/>
+            <point key="canvasLocation" x="734" y="489"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="nL6-UX-T1Z">
@@ -195,7 +195,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JJm-Vc-vj0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-582" y="-252"/>
+            <point key="canvasLocation" x="-713" y="-251"/>
         </scene>
     </scenes>
     <resources>
