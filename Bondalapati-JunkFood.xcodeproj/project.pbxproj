@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6815068B204F6560006F61B3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6815068A204F6560006F61B3 /* Model.swift */; };
 		682C161C204E9CB500B64DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682C161B204E9CB500B64DAA /* AppDelegate.swift */; };
 		682C161E204E9CB500B64DAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682C161D204E9CB500B64DAA /* ViewController.swift */; };
 		682C1621204E9CB500B64DAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682C161F204E9CB500B64DAA /* Main.storyboard */; };
 		682C1623204E9CB500B64DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 682C1622204E9CB500B64DAA /* Assets.xcassets */; };
 		682C1626204E9CB500B64DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682C1624204E9CB500B64DAA /* LaunchScreen.storyboard */; };
+		687AE774204FBBBD00B4F314 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687AE773204FBBBD00B4F314 /* ReportViewController.swift */; };
+		687AE776204FD09F00B4F314 /* RecordTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687AE775204FD09F00B4F314 /* RecordTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6815068A204F6560006F61B3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		682C1618204E9CB500B64DAA /* Bondalapati-JunkFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bondalapati-JunkFood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		682C161B204E9CB500B64DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		682C161D204E9CB500B64DAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		682C1622204E9CB500B64DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		682C1625204E9CB500B64DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		682C1627204E9CB500B64DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687AE773204FBBBD00B4F314 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		687AE775204FD09F00B4F314 /* RecordTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				682C161B204E9CB500B64DAA /* AppDelegate.swift */,
-				682C161D204E9CB500B64DAA /* ViewController.swift */,
-				682C161F204E9CB500B64DAA /* Main.storyboard */,
+				687AE775204FD09F00B4F314 /* RecordTableTableViewController.swift */,
 				682C1622204E9CB500B64DAA /* Assets.xcassets */,
-				682C1624204E9CB500B64DAA /* LaunchScreen.storyboard */,
 				682C1627204E9CB500B64DAA /* Info.plist */,
+				682C1624204E9CB500B64DAA /* LaunchScreen.storyboard */,
+				682C161F204E9CB500B64DAA /* Main.storyboard */,
+				6815068A204F6560006F61B3 /* Model.swift */,
+				687AE773204FBBBD00B4F314 /* ReportViewController.swift */,
+				682C161D204E9CB500B64DAA /* ViewController.swift */,
 			);
 			path = "Bondalapati-JunkFood";
 			sourceTree = "<group>";
@@ -136,6 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687AE776204FD09F00B4F314 /* RecordTableTableViewController.swift in Sources */,
+				687AE774204FBBBD00B4F314 /* ReportViewController.swift in Sources */,
+				6815068B204F6560006F61B3 /* Model.swift in Sources */,
 				682C161E204E9CB500B64DAA /* ViewController.swift in Sources */,
 				682C161C204E9CB500B64DAA /* AppDelegate.swift in Sources */,
 			);
