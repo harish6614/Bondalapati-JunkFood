@@ -15,6 +15,7 @@
 		682C1626204E9CB500B64DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 682C1624204E9CB500B64DAA /* LaunchScreen.storyboard */; };
 		687AE774204FBBBD00B4F314 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687AE773204FBBBD00B4F314 /* ReportViewController.swift */; };
 		687AE776204FD09F00B4F314 /* RecordTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687AE775204FD09F00B4F314 /* RecordTableTableViewController.swift */; };
+		687AE7782050559500B4F314 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687AE7772050559500B4F314 /* NewItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		682C1627204E9CB500B64DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		687AE773204FBBBD00B4F314 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		687AE775204FD09F00B4F314 /* RecordTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableTableViewController.swift; sourceTree = "<group>"; };
+		687AE7772050559500B4F314 /* NewItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				6815068A204F6560006F61B3 /* Model.swift */,
 				687AE773204FBBBD00B4F314 /* ReportViewController.swift */,
 				682C161D204E9CB500B64DAA /* ViewController.swift */,
+				687AE7772050559500B4F314 /* NewItemViewController.swift */,
 			);
 			path = "Bondalapati-JunkFood";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				687AE776204FD09F00B4F314 /* RecordTableTableViewController.swift in Sources */,
 				687AE774204FBBBD00B4F314 /* ReportViewController.swift in Sources */,
+				687AE7782050559500B4F314 /* NewItemViewController.swift in Sources */,
 				6815068B204F6560006F61B3 /* Model.swift in Sources */,
 				682C161E204E9CB500B64DAA /* ViewController.swift in Sources */,
 				682C161C204E9CB500B64DAA /* AppDelegate.swift in Sources */,
