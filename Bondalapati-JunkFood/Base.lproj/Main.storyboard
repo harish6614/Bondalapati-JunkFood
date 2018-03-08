@@ -13,6 +13,9 @@
         <array key="ChalkboardSE.ttc">
             <string>ChalkboardSE-Regular</string>
         </array>
+        <array key="CourierNewBold.ttf">
+            <string>CourierNewPS-BoldMT</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Items-->
@@ -68,7 +71,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nek-TX-k9t" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="FCg-A9-GDm" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="622" y="-252"/>
+            <point key="canvasLocation" x="910" y="-252"/>
         </scene>
         <!--New Item View Controller-->
         <scene sceneID="nRX-VZ-N5X">
@@ -113,7 +116,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="RBG-Bt-gs9" kind="unwind" unwindAction="unwindFromAddNewItemWithSegue:" id="N4S-qS-lp6"/>
+                                    <segue destination="RBG-Bt-gs9" kind="unwind" identifier="addNewItem" unwindAction="unwindFromAddNewItemWithSegue:" id="N4S-qS-lp6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6g-ng-eGj">
@@ -122,16 +125,31 @@
                                 <state key="normal" title="Cancel" image="icons-cancel-50">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="RBG-Bt-gs9" kind="unwind" identifier="cancelNewItem" unwindAction="unwindFromAddNewItemWithSegue:" id="F7I-LI-p7m"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjI-gV-dcP">
+                                <rect key="frame" x="16" y="294" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="16"/>
+                                <color key="textColor" red="1" green="0.24202080298674311" blue="0.18983165550138603" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="JTD-nK-cvO"/>
                     </view>
+                    <connections>
+                        <outlet property="caloriesTF" destination="HVm-QJ-Rzm" id="1z0-6n-ZNP"/>
+                        <outlet property="errorLBL" destination="vjI-gV-dcP" id="v7C-sG-YG3"/>
+                        <outlet property="itemNameTF" destination="AUx-Gd-KZo" id="AiQ-Jh-Lp6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fUj-te-pFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="RBG-Bt-gs9" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="622" y="554"/>
+            <point key="canvasLocation" x="909.60000000000002" y="475.41229385307349"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="nL6-UX-T1Z">
@@ -179,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YYC-iU-Y41" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5.5999999999999996" y="-251.42428785607197"/>
+            <point key="canvasLocation" x="185" y="-252"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="AcB-pR-ett">

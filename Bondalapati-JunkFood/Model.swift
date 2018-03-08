@@ -63,6 +63,10 @@ class FoodRecorder {
         return r + "\nTotal calories consumed \(totalCalories())."
     }
     
+    func addNewItem(name:String, calories:Double){
+        foods.append(FoodData(itemName: name, caloriesPerServing: calories, noOfServings: 0))
+    }
+    
     func reset() {
         for i in 0 ..< foods.count {
             foods[i].tally = 0
